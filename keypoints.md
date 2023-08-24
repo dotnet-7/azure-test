@@ -1,3 +1,12 @@
+## 常规问题
+需要按照github上的说明安装指定版本的环境
+
+debug之前需要先执行``azd up``，若报错提示无权限则需要到指定的keyvalut中田间access policy
+
+debug web时需要先start api and web
+
+debug api只需要start web
+
 ## terraform配置
 ### 创建container
 * 创建一个tfstate的resourcegroup
