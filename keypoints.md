@@ -91,3 +91,13 @@ azd env set RS_STORAGE_ACCOUNT your_storage_account_name
 azd env set RS_CONTAINER_NAME your_terraform_container_name
 azd env set RS_RESOURCE_GROUP your_storage_account_resource_group
 ```
+
+
+## aks要点
+若出现报错
+> Version *** not supported in this region.
+
+
+* 输入 ``az aks get-versions -l <location>``查看该region支持的aks版本
+* 打开文件aks=managed-cluster.bicep
+* 修改kubernetesVersion值为支持的版本号
