@@ -93,7 +93,7 @@ azd env set RS_RESOURCE_GROUP your_storage_account_resource_group
 ```
 
 
-## aks要点
+## aks报错
 若出现报错
 > Version *** not supported in this region.
 
