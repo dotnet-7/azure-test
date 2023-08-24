@@ -1,5 +1,5 @@
 ## terraform配置
-### 创建容器
+### 创建container
 * 创建一个tfstate的resourcegroup
 * 创建一个strogeaccount
 * 创建一个container
